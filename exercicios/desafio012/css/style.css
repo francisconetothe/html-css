@@ -1,5 +1,12 @@
 @charset "UFT-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+:root{
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Sora', sans-serif;
+}
+
 /* Configuração geral*/
 *{
     margin: 0px;
@@ -10,6 +17,7 @@
 html, body{
     min-height: 100vh;
     background-color: dark;
+    font-family: var(--fonte-padrao);
 }
 
 /* CABEÇALHO*/
@@ -22,6 +30,7 @@ header{
 header > h1{
     padding-top: 50px;
     font-variant: small-caps;
+    font-size: 3em;
 }
 
 header > p {
