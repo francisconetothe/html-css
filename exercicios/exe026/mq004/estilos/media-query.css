@@ -1,20 +1,4 @@
-selector .elementor-heading-title{
-    animation: 3.4s linear infinite brilho;
-    background-image: linear-gradient(45deg, #ffffff, #C2AB84, #ffffff, #C2AB84); /*troque as cores aqui, repetindo conforme indicado*/
-    background-size: 400% 100%;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent !important;
-    -webkit-text-fill-color: transparent;
-    transition: all .8s;
-}
+@charset "UTF-8";
 
-@keyframes brilho{
-    0% {
-        background-position: 0 0;
-    }  
+/* Todas as mídias demais */
 
-    100% {
-        background-position: 100% 0;
-    }
-}
