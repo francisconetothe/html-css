@@ -21,8 +21,21 @@ header h1{
     text-align: center;
 }
 
-menu{
+#burgue{
+    background-color: rgb(75, 75, 75);
+    color: white;
+    text-align: center;
+    padding: 10px;
     display: block;
+}
+
+#burgue:hover{
+    background-color: white;
+    color: black;
+}
+
+menu{
+    display: none;
 }
 
 menu ul{
